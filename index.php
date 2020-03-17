@@ -41,7 +41,8 @@ if(empty($_POST)){
   <div class="container" id="content">
     <div class="row">
       <div class="col-12 col-lg-6 col-center">
-        <div class="alert alert-info text-center">Les informations rentrées dans le formulaire ci-dessous ne sont pas gardées sur le serveur. Le site ne fonctionne pas en étant ouvert via un navigateur impriqué style Facebook messenger.</div>
+        <div class="alert alert-info text-center">Les informations rentrées dans le formulaire ci-dessous ne sont pas gardées sur le serveur.</div>
+        <div class="alert alert-warning text-center">Le site ne fonctionne pas via un navigateur imbriqué style Facebook, Messenger, Discord... Il est conseillé d'utiliser Chrome ou Firefox.</div>
       </div>
     </div>
     <div class="row">
@@ -101,7 +102,7 @@ if(empty($_POST)){
             <div class="col-12">
               <div class="form-group">
                 <label for="adresse">Adresse</label>
-                <input type="text" name="adresse" class="form-control" placeholder="Votre adresse compléte" id="adresse" required>
+                <input type="text" name="adresse" class="form-control" placeholder="Votre adresse complète" id="adresse" required>
                 <div class="invalid-feedback">
                   Champs obligatoire
                 </div>

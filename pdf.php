@@ -8,15 +8,6 @@ if(isset($_POST['generate_pdf'])){
   fwrite($fichier2,$content);
   fclose($fichier2);
 
-
-
-/*  echo "<pre>";
-  print_r($_POST);
-  echo "</pre>";*/
-
-
-
-
   require('fpdf/fpdf.php');
 
   $pdf = new FPDF('P','mm','A4');
@@ -24,7 +15,6 @@ if(isset($_POST['generate_pdf'])){
   $pdf->SetCreator("ATTESTATION DE DÉPLACEMENT DÉROGATOIRE");
   $pdf->SetAuthor("ATTESTATION DE DÉPLACEMENT DÉROGATOIRE");
   $pdf->SetTitle(utf8_decode("ATTESTATION DE DÉPLACEMENT DÉROGATOIRE"));
-
 
 //Title
   $pdf->SetFont('Arial', 'B', 18); 
@@ -162,119 +152,11 @@ if(!empty($_POST['sante'])){
 
 //Signature
   $pdf->Image($_POST['signature'], 130,220,0,25,'png');
-
   $pdf->Ln();
-
-
-
 
   $cheminEnvoi2="attestation_de_deplacement_derogatoire.pdf";
   $pdf->Output($cheminEnvoi2,"D");
   ob_end_flush();
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
 }else{
 	header("Location:index.php");
 }

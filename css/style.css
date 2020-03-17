@@ -7,8 +7,25 @@ header{
 header h1, header p{
 	text-align: center;
 }
+@media screen and (max-width: 997px) {
+  header{
+	padding: 22px 0 5px 0;
+  }
+  header h1{
+    font-size: 15px;
+  }
+  header p{
+    font-size: 12px;
+  }
+  .alert-info{
+  	margin-top: -50px;
+  }
+}
 footer{
 	background-color: #f5f5f5;
+}
+.custom-control.custom-checkbox{
+	margin-left: 5px;
 }
 .col-center{
 	float: none;
