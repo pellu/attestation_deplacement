@@ -40,6 +40,7 @@ if(empty($_POST)){
   <div class="container" id="content">
     <div class="row">
       <div class="col-12 col-lg-6 col-center">
+        <div class="alert alert-danger"><a href="https://twitter.com/Place_Beauvau/status/1240236276416118784" target="_blank">Le ministère de l'intérieur indique dans un tweet du 18 mars à 12h19</a> que les attestations officielles imprimées et les attestations sur l’honneur rédigées sur papier libre sont les seules valables. <a href="https://www.interieur.gouv.fr/Actualites/L-actu-du-Ministere/Attestation-de-deplacement-derogatoire-et-justificatif-de-deplacement-professionnel" target="_blank">Télécharger le PDF officiel</a></div>
         <div class="alert alert-info text-center">Les informations rentrées dans le formulaire ci-dessous ne sont pas gardées sur le serveur.</div>
         <div class="alert alert-warning text-center">Le site ne fonctionne pas via un navigateur imbriqué style Facebook, Messenger, Discord... Il est conseillé d'utiliser Chrome ou Firefox.</div>
       </div>
@@ -47,7 +48,7 @@ if(empty($_POST)){
     <div class="row">
       <div class="col-12 col-lg-6 col-center">
         <p class="text-center" style="font-size: 14.5px;">En application de l'article 1<sup>er</sup> du décret du 16 mars 2020 portant réglementation des déplacements dans le cadre de la lutte contre la propagation du virus Covid-19.</p>
-        <form class="needs-validation" action="pdf.php" method="POST" novalidate>
+        <form class="needs-validation" action="" method="POST" novalidate>
 
           <div class="row">
             <div class="col-md-6 mb-3">

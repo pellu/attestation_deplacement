@@ -35,7 +35,7 @@ footer{
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
-.alert-info, .alert-warning{
+.alert-danger, .alert-info, .alert-warning{
 	font-size: 12px;
 }
 button{
