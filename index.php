@@ -16,6 +16,7 @@ if(empty($_POST)){
 <head>
   <meta charset="utf-8">
   <title>Attestation de déplacement dérogatoire</title>
+  <meta name="title" content="Génération attestation de déplacement dérogatoire en PDF">
   <meta name="description" content="Génération d'une attestation de déplacement dérogatoire en application de l'article 1er du décret du 16 mars 2019 contre la propagation du virus Covid-19">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <link type="text/css" href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
