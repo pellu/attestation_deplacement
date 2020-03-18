@@ -17,7 +17,7 @@ header h1, header p{
   header p{
     font-size: 12px;
   }
-  .alert-info{
+  .alert-danger{
   	margin-top: -50px;
   }
 }
